@@ -209,6 +209,7 @@ h1 {
   color: #BFDCE5;
 }
 
+
 #teacher{
   min-height: 100vh;
   display: flex;
@@ -224,18 +225,18 @@ h1 {
   width: 100%;
   padding: 40px 0;
 }
-
 .slide-content{
-  /* width: 90%; */
   margin: 0 40px;
   overflow: hidden;
   border-radius: 25px;
 }
-
 .card{
-  background: #3E54AC;
   border-radius: 25px;
+  background-color: #3E54AC;
 }
+
+
+/* djtconme */
 
 .image-content{
   position: relative;
@@ -285,7 +286,7 @@ h1 {
 }
 
 .card-content{
-  font-size: clamp(1rem, 5vw, 1.5rem);
+  font-size: clamp(1rem, 4vw, 1.3rem);
   color: #EEEEEE;
   padding: 0 5px;
 }
