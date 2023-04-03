@@ -134,11 +134,6 @@ h1 {
   filter: blur(0);
   transform: translateX(0);
 }  
-/* @media (prefers-reduced-motion: no-preference) {
-  .hidden {
-    transition: all 1s;
-  }
-} */
 
 #about {
   margin: 0;
