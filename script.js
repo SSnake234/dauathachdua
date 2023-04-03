@@ -70,6 +70,7 @@ let interval = null;
    document.querySelector("#cac").ontransitionstart = hackingFunc;  
    document.querySelector("#cac").onmouseover = hackingFunc; 
    
+  //  Swiper.js
    var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     centeredSlides: false,
