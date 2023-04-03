@@ -1,15 +1,15 @@
 /* Google Fonts - Poppins */
-*, 
-*:before, 
+*,
+*:before,
 *:after {
   box-sizing: border-box;
 }
 html {
   font-family: "Shantell Sans", monospace;
   font-size: 16px;
-  background: #9FC088;
-  font-weight: 400; 
-  color: #CC704B; 
+  background: #9fc088;
+  font-weight: 400;
+  color: #cc704b;
   scroll-behavior: smooth;
 }
 body {
@@ -22,17 +22,17 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background: #E8C07D;
-  margin:0;
+  background: #e8c07d;
+  margin: 0;
 }
 
-
-li,a{
+li,
+a {
   text-decoration: none;
   color: #614124;
 }
 
-.logo{
+.logo {
   width: 50px;
   cursor: pointer;
 }
@@ -41,34 +41,34 @@ li,a{
   list-style: none;
 }
 
-.nav-links li{
+.nav-links li {
   display: inline-block;
   margin: 0px 20px;
   padding: 5px 20px;
   font-size: 1.2rem;
   border-radius: 10px;
   background: inherit;
-  font-weight: 800; 
+  font-weight: 800;
   transition: all 0.3s ease;
 }
 .nav-links li:hover {
   opacity: 70%;
   transform: translateY(-5px);
 }
-button{
+button {
   font-family: "Shantell Sans";
   font-size: 1.5rem;
-  background: inherit; 
-  border: none; 
+  background: inherit;
+  border: none;
   cursor: pointer;
 
-  color: #CC704B;
+  color: #cc704b;
   border-radius: 4px;
   overflow: hidden;
-    transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-button:hover{
+button:hover {
   opacity: 70%;
   transform: translateY(-5px);
 }
@@ -80,13 +80,13 @@ button:hover{
   align-items: center;
 }
 
-.box1{
+.box1 {
   position: relative;
   margin: 0;
   font-size: clamp(0.5rem, 5vw, 2.5rem);
   top: 30%;
 }
-.box2{
+.box2 {
   position: relative;
   width: 100%;
   margin: 0;
@@ -97,24 +97,25 @@ button:hover{
   top: 30%;
 }
 
-.box2:hover{
-  background: #CC704B;
+.box2:hover {
+  background: #cc704b;
   color: #614124;
 }
 
-.animated{
+.animated {
   transform: translateY(10px);
   opacity: 0;
   transition: all 600ms ease 1s;
 }
 
-.showUp{
+.showUp {
   transform: translateY(0px);
   opacity: 1;
 }
 
-.box2 .animated{
-    transition: transform 600ms ease 1.5s, opacity 600ms ease 1.5s, color 0ms ease 0s; 
+.box2 .animated {
+  transition: transform 600ms ease 1.5s, opacity 600ms ease 1.5s,
+    color 0ms ease 0s;
 }
 
 h1 {
@@ -122,7 +123,7 @@ h1 {
 }
 
 /*  load transition */
- .hidden {
+.hidden {
   opacity: 0;
   transition: background-color 0s;
   transition: transform 1s ease, opacity 1s ease, filter 1s ease;
@@ -133,7 +134,7 @@ h1 {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
-}  
+}
 
 #about {
   margin: 0;
@@ -142,55 +143,55 @@ h1 {
   font-size: clamp(0.5rem, 5vw, 1.6rem);
   text-align: justify;
 }
-#about ul{
-  list-style:none;
+#about ul {
+  list-style: none;
 }
 #about ul li {
-  color: #CC704B;
+  color: #cc704b;
 }
 
 #Anh:before {
   content: "\2022";
   color: #92a8d1;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
 #Nghi:before {
   content: "\2022";
   color: red;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
 
 #me:before {
   content: "\2022";
-/*   color: #ed3419; */
+  /*   color: #ed3419; */
   color: #ff4122;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
 #Nhat:before {
   content: "\2022";
   color: #609966;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
 
 #Quynh:before {
   content: "\2022";
-  color: #D99F9A;
-  display: inline-block; 
+  color: #d99f9a;
+  display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
 #Linh:before {
   content: "\2022";
   color: #e0fefe;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
   margin-left: -1em;
   z-index: 10;
@@ -199,24 +200,24 @@ h1 {
 #people {
   font-size: clamp(0.5rem, 5vw, 1.6rem);
   justify-content: center;
-  background: #AD7BE9;
+  background: #ad7be9;
 }
 
-#randomtext{
+#randomtext {
   padding: 20px 20% 20px;
   font-size: clamp(0.5rem, 5vw, 1.6rem);
   text-align: justify;
-  color: #BFDCE5;
+  color: #bfdce5;
 }
 
-#teacher{
+#teacher {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.slide-container{
+.slide-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -224,22 +225,21 @@ h1 {
   width: 100%;
   padding: 40px 0;
 }
-.slide-content{
+.slide-content {
   margin: 0 40px;
   overflow: hidden;
   border-radius: 25px;
 }
-.card{
+.card {
   border-radius: 25px;
-  background-color: #3E54AC;
+  background-color: #3e54ac;
 }
-
 
 /* djtconme */
 
-.image-content{
+.image-content {
   position: relative;
-  background: #BFDCE5;
+  background: #bfdce5;
   border-radius: 25px 25px 0px 25px;
   display: flex;
   flex-direction: column;
@@ -247,7 +247,7 @@ h1 {
   row-gap: 10px;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   left: 0;
   top: 0;
@@ -256,27 +256,27 @@ h1 {
   border-radius: 25px 25px 0 25px;
 }
 .overlay::before,
-.overlay::after{
-  content: '';
+.overlay::after {
+  content: "";
   position: absolute;
   right: 0;
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background-color: #BFDCE5;
+  background-color: #bfdce5;
 }
-.overlay::after{
+.overlay::after {
   border-radius: 0 25px 0 0;
-  background-color: #3E54AC;
+  background-color: #3e54ac;
 }
 
-.name{  
+.name {
   text-align: center;
   font-size: clamp(1rem, 5vw, 1.5rem);
 }
 
-.cardimg{
-  object-fit:cover;
+.cardimg {
+  object-fit: cover;
   margin-top: 5px;
   width: 30%;
   aspect-ratio: 1/1;
@@ -284,53 +284,55 @@ h1 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.card-content{
+.card-content {
   font-size: clamp(1rem, 4vw, 1.3rem);
-  color: #EEEEEE;
+  color: #eeeeee;
   padding: 0 5px;
 }
 
-.field, .quote, .feature{
+.field,
+.quote,
+.feature {
   display: flex;
   margin-top: 10px;
   align-items: center;
 }
 
-h4{
+h4 {
   text-align: center;
   width: 30%;
 }
 
-.swiper-navBtn{
-  color: #6E93f7;
+.swiper-navBtn {
+  color: #6e93f7;
   transition: color 0.3s ease;
 }
-.swiper-navBtn:hover{
-  color: #4070F4;
+.swiper-navBtn:hover {
+  color: #4070f4;
 }
 .swiper-navBtn::before,
-.swiper-navBtn::after{
+.swiper-navBtn::after {
   font-size: 35px;
 }
-.swiper-button-next{
+.swiper-button-next {
   right: 0;
 }
-.swiper-button-prev{
+.swiper-button-prev {
   left: 0;
 }
-.swiper-pagination-bullet{
-  background-color: #6E93f7;
+.swiper-pagination-bullet {
+  background-color: #6e93f7;
   opacity: 1;
 }
-.swiper-pagination-bullet-active{
-  background-color: #4070F4;
+.swiper-pagination-bullet-active {
+  background-color: #4070f4;
 }
 
 @media screen and (max-width: 768px) {
-  .slide-content{
+  .slide-content {
     margin: 0 10px;
   }
-  .swiper-navBtn{
+  .swiper-navBtn {
     display: none;
   }
 }
@@ -341,24 +343,23 @@ h4{
   margin: 100px auto;
 }
 
-.content{
+.content {
   padding: 10px 50px;
   position: relative;
   width: 50%;
 }
 
-
 .text {
   padding: 20px 30px;
   position: relative;
-  background: #E8C07D;
+  background: #e8c07d;
   color: #614124;
   border-radius: 6px;
   font-size: clamp(0.5rem, 5vw, 1.3rem);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.text h2{
+.text h2 {
   font-weight: 600;
 }
 .text small {
@@ -372,8 +373,8 @@ h4{
   transition: all 1s ease;
 }
 .left-animation {
-   opacity: 1;
-    transform: translateX(0px);
+  opacity: 1;
+  transform: translateX(0px);
 }
 
 .right {
@@ -384,8 +385,8 @@ h4{
 }
 
 .right-animation {
-   opacity: 1;
-   transform: translateX(0px);
+  opacity: 1;
+  transform: translateX(0px);
 }
 
 .content img {
@@ -401,35 +402,35 @@ h4{
   left: -20px;
 }
 
-#events:after{
-  content: '';
+#events:after {
+  content: "";
   position: absolute;
   top: 0;
   width: 6px;
   height: 100%;
   left: 50%;
-  background: #CC704B;
+  background: #cc704b;
   z-index: -1;
 }
 
 .title {
-  border-bottom:1px solid #407088;
+  border-bottom: 1px solid #407088;
   float: left;
-  width:100%;
-  padding-bottom:3px;
+  width: 100%;
+  padding-bottom: 3px;
 }
 
-.needle{
+.needle {
   transform: scale(1);
   transition: 300ms ease;
 }
 
-.needle:hover{
+.needle:hover {
   transform: scale(1.05);
   transition: all 300ms ease;
 }
 
-.needle:after{
+.needle:after {
   content: "";
   background: linear-gradient(transparent, #614124, transparent);
   height: 30px;
@@ -442,21 +443,21 @@ h4{
   opacity: 0;
 }
 
-.needle:hover:after{
+.needle:hover:after {
   opacity: 1;
   top: 25%;
 }
 
-.right > .needle:after{
+.right > .needle:after {
   left: 100%;
 }
 
-.right > .needle:hover:after{
+.right > .needle:hover:after {
   opacity: 1;
   top: 25%;
 }
 
-.needle:before{
+.needle:before {
   content: "";
   background: linear-gradient(to right, transparent, #614124, transparent);
   height: 1.4px;
@@ -469,17 +470,17 @@ h4{
   opacity: 0;
 }
 
-.needle:hover:before{
+.needle:hover:before {
   opacity: 1;
   left: 65%;
 }
 
-.right > .needle:hover:before{
+.right > .needle:hover:before {
   opacity: 1;
   left: 25%;
 }
 
-.right > .needle:before{
+.right > .needle:before {
   left: 65%;
 }
 
@@ -658,7 +659,7 @@ h4{
 }
 
 /* Koala animation */
- @keyframes slideInLeft {
+@keyframes slideInLeft {
   from {
     transform: translateX(-300px);
   }
@@ -674,31 +675,31 @@ h4{
   to {
     transform: translateX(0);
   }
-}  
+}
 
-@media (max-width: 450px){
+@media (max-width: 450px) {
   .logo {
     width: 30px;
     position: relative;
     left: 30%;
   }
-  button{
+  button {
     font-size: 1rem;
   }
-  #instagram{
+  #instagram {
     position: relative;
     left: 40%;
     bottom: 60px;
-    padding:0;
+    padding: 0;
   }
-  .nav-links li{
+  .nav-links li {
     top: 10px;
     position: relative;
     font-size: 0.8em;
     margin: 0px 3px;
     left: 0;
   }
-  .nav-links{
+  .nav-links {
     display: flex;
     justify-content: center;
     padding: 0px;
@@ -709,8 +710,8 @@ h4{
     padding: 10px;
   }
   .container {
-    width:280px;
-    height:280px;
+    width: 280px;
+    height: 280px;
     top: 220px;
   }
   .main {
@@ -731,16 +732,18 @@ h4{
   .text {
     font-size: 13px;
   }
-  .text small{
+  .text small {
     margin-bottom: 10px;
   }
-  .right, .left{
+  .right,
+  .left {
     left: 0px;
   }
-  .right img, .left img {
+  .right img,
+  .left img {
     left: 10px;
   }
-  #events::after{
+  #events::after {
     left: 31px;
   }
 }
