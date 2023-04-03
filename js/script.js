@@ -1,5 +1,5 @@
-// reveal function
-const observer = new IntersectionObserver((entries) => {
+ // reveal function
+ const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) entry.target.classList.add("show");
   });
@@ -69,31 +69,29 @@ const hackingFunc = (event) => {
 document.querySelector("#cac").ontransitionstart = hackingFunc;
 document.querySelector("#cac").onmouseover = hackingFunc;
 
-//  Swiper.js
-
 var swiper = new Swiper(".slide-content", {
   slidesPerView: 2,
   spaceBetween: 25,
   loop: true,
-  centerSlide: "true",
-  fade: "true",
-  grabCursor: "true",
+  centerSlide: 'true',
+  fade: 'true',
+  grabCursor: 'true',
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-    dynamicBullets: true
+    dynamicBullets: true,
   },
   navigation: {
     nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev"
+    prevEl: ".swiper-button-prev",
   },
 
-  breakpoints: {
-    0: {
-      slidesPerView: 1
-    },
-    950: {
-      slidesPerView: 2
-    }
-  }
+  breakpoints:{
+      0: {
+          slidesPerView: 1,
+      },
+      950: {
+          slidesPerView: 2,
+      },
+  },
 });
