@@ -246,7 +246,10 @@ h1 {
   flex-direction: column;
   align-items: center;
   row-gap: 10px;
+  color: black;
 }
+
+
 
 .overlay{
   position: absolute;
@@ -295,6 +298,10 @@ h1 {
   display: flex;
   margin-top: 10px;
   align-items: center;
+}
+
+.field ul li, .quote ul li, .feature ul li{
+  color: white;
 }
 
 h4{
