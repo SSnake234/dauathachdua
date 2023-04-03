@@ -14,7 +14,6 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-/*   overflow-x: hidden; */
 }
 
 header {
@@ -234,9 +233,6 @@ h1 {
   border-radius: 25px;
   background-color: #3E54AC;
 }
-
-
-/* djtconme */
 
 .image-content{
   position: relative;
