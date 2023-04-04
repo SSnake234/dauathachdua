@@ -270,6 +270,7 @@ h1 {
   background-color: #BFDCE5;
 }
 .overlay::after{
+  width: 41px;
   border-radius: 0 25px 0 0;
   background-color: #3E54AC;
 }
@@ -289,9 +290,9 @@ h1 {
 }
 
 .card-content{
-  font-size: clamp(1rem, 4vw, 1.3rem);
+  font-size: clamp(0.5rem, 4.5vw, 1.5rem);
   color: #EEEEEE;
-  padding: 0 5px;
+  padding: 5px;
 }
 
 .field, .quote, .feature{
