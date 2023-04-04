@@ -295,7 +295,6 @@ h1 {
 .field, .quote, .feature{
   display: flex;
   align-items: center;
-  border: 1px solid red;
 }
 
 .field ul li, .quote ul li, .feature ul li{
@@ -310,6 +309,7 @@ h4{
 .swiper-navBtn{
   color: #6E93f7;
   transition: color 0.3s ease;
+  opacity: 0;
 }
 .swiper-navBtn:hover{
   color: #4070F4;
@@ -318,12 +318,7 @@ h4{
 .swiper-navBtn::after{
   font-size: 35px;
 }
-.swiper-button-next{
-  right: 0;
-}
-.swiper-button-prev{
-  left: 0;
-}
+
 .swiper-pagination-bullet{
   background-color: #6E93f7;
   opacity: 1;

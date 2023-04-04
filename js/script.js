@@ -90,6 +90,9 @@ var swiper = new Swiper(".slide-content", {
       0: {
           slidesPerView: 1,
       },
+      580:{
+          slidesPerView: 2,
+      },
       950: {
           slidesPerView: 3,
       },
