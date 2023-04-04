@@ -224,7 +224,6 @@ h1 {
   padding: 40px 0;
 }
 .slide-content{
-  margin: 0 40px;
   overflow: hidden;
   border-radius: 25px;
 }
@@ -288,15 +287,15 @@ h1 {
 }
 
 .card-content{
-  font-size: clamp(0.5rem, 4.5vw, 1.5rem);
+  font-size: clamp(0.5rem, 4vw, 1.2rem);
   color: #EEEEEE;
-  padding: 5px;
+  padding: 0px 5px 5px;
 }
 
 .field, .quote, .feature{
   display: flex;
-  margin-top: 10px;
   align-items: center;
+  border: 1px solid red;
 }
 
 .field ul li, .quote ul li, .feature ul li{
