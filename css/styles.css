@@ -138,7 +138,7 @@ h1 {
 #about {
   margin: 0;
   padding: 20px 20% 20px;
-  font-size: clamp(0.5rem, 5vw, 1.6rem);
+  font-size: clamp(0.5em, 5vw, 1.6em);
   text-align: justify;
 }
 #about ul {
@@ -196,17 +196,15 @@ h1 {
 }
 
 #people {
-  font-size: clamp(0.5rem, 5vw, 1.6rem);
   justify-content: center;
   background: #AD7BE9;
 }
 
 .randomtext {
   padding: 20px 20% 20px;
-  font-size: clamp(0.5rem, 4vw, 1.6rem);
+  font-size: clamp(0.5em, 5vw, 1.6em);
   text-align: justify;
   color: #bfdce5;
-  margin: 0;
 }
 
 
