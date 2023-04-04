@@ -137,7 +137,6 @@ h1 {
 
 #about {
   margin: 0;
-  height: auto;
   padding: 20px 20% 20px;
   font-size: clamp(0.5rem, 5vw, 1.6rem);
   text-align: justify;
@@ -202,11 +201,12 @@ h1 {
   background: #AD7BE9;
 }
 
-#randomtext {
+.randomtext {
   padding: 20px 20% 20px;
-  font-size: clamp(0.5rem, 5vw, 1.6rem);
+  font-size: clamp(0.5rem, 4vw, 1.6rem);
   text-align: justify;
   color: #bfdce5;
+  margin: 0;
 }
 
 
@@ -752,6 +752,9 @@ h4{
   }
   #events::after {
     left: 31px;
+  }
+  .randomtext{
+    padding: 0;
   }
 }
 
