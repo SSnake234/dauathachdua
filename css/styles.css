@@ -225,10 +225,16 @@ h1 {
 .slide-content{
   border-radius: 25px;
 }
+
+.card-wrapper{
+  height: 100%;
+}
 .card{
   border-radius: 25px;
   background-color: #3E54AC;
-  inline-size: min-conten;
+  /* inline-size: min-content; */
+  height: 100%;
+  
 }
 
 
