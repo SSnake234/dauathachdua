@@ -60,7 +60,6 @@ button {
   background: inherit;
   border: none;
   cursor: pointer;
-
   color: #cc704b;
   border-radius: 4px;
   overflow: hidden;
@@ -224,12 +223,12 @@ h1 {
   padding: 40px 0;
 }
 .slide-content{
-  overflow: hidden;
   border-radius: 25px;
 }
 .card{
   border-radius: 25px;
   background-color: #3E54AC;
+  inline-size: min-conten;
 }
 
 
@@ -299,6 +298,10 @@ h1 {
 
 .field ul li, .quote ul li, .feature ul li{
   color: white;
+}
+
+.quote{
+  margin-bottom: 5px;
 }
 
 h4{
