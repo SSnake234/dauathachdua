@@ -98,3 +98,5 @@ var swiper = new Swiper(".slide-content", {
       },
   },
 });
+
+$("#thien").height($("#huongvu").height());

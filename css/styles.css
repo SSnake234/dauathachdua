@@ -228,15 +228,15 @@ h1 {
 
 .card-wrapper{
   display: flex;
+  align-items: safe;
 }
 
 .card{
   border-radius: 25px;
   background-color: #3E54AC;
   inline-size: min-content;
-  flex-basis: auto;
-  /* padding-bottom: 100%;
-  margin-bottom: -100%; */
+  padding-bottom: 100%;
+  margin-bottom: -100%;
 }
 
 
@@ -275,6 +275,7 @@ h1 {
 }
 .overlay::after{
   width: 41px;
+  height: 41px;
   border-radius: 0 25px 0 0;
   background-color: #3E54AC;
 }
