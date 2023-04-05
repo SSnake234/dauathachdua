@@ -227,14 +227,16 @@ h1 {
 }
 
 .card-wrapper{
-  height: 100%;
+  display: flex;
 }
+
 .card{
   border-radius: 25px;
   background-color: #3E54AC;
-  /* inline-size: min-content; */
-  height: 100%;
-  
+  inline-size: min-content;
+  flex-basis: auto;
+  /* padding-bottom: 100%;
+  margin-bottom: -100%; */
 }
 
 
