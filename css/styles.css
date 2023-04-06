@@ -198,14 +198,14 @@ h1 {
 
 #people {
   justify-content: center;
-  background: #AD7BE9;
+  background: #614124;
+  color: #e8c07d;
 }
 
 .randomtext {
   padding: 20px 20% 20px;
   font-size: clamp(0.5em, 5vw, 1.6em);
   text-align: justify;
-  color: #bfdce5;
 }
 
 
@@ -235,24 +235,21 @@ h1 {
 
 .card{
   border-radius: 25px;
-  background-color: #3E54AC;
+  background-color: #539165;
   inline-size: min-content;
   padding-bottom: 100%;
   margin-bottom: -100%;
 }
 
-
-/* djtconme */
-
 .image-content{
   position: relative;
-  background: #BFDCE5;
+  background: #9fc088;
   border-radius: 25px 25px 0px 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 10px;
-  color: black;
+  color: #614124;
 }
 
 
@@ -273,12 +270,12 @@ h1 {
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background-color: #BFDCE5;
+  background-color: #9fc088;
 }
 .overlay::after{
   width: 41px;
   border-radius: 0 25px 0 0;
-  background-color: #3E54AC;
+  background-color: #539165;
 }
 
 .name{  
@@ -319,27 +316,6 @@ h4{
   width: 30%;
 }
 
-.swiper-navBtn{
-  color: #6E93f7;
-  transition: color 0.3s ease;
-  opacity: 0;
-}
-.swiper-navBtn:hover{
-  color: #4070F4;
-}
-.swiper-navBtn::before,
-.swiper-navBtn::after{
-  font-size: 35px;
-}
-
-.swiper-pagination-bullet{
-  background-color: #6E93f7;
-  opacity: 1;
-}
-.swiper-pagination-bullet-active{
-  background-color: #4070F4;
-}
-
 @media screen and (max-width: 768px) {
   .slide-content{
     margin: 0 10px;
@@ -347,6 +323,10 @@ h4{
   .swiper-navBtn{
     display: none;
   }
+}
+
+#teach{
+  border-top: 1px solid #cc704b;
 }
 
 #events {
