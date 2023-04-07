@@ -23,6 +23,7 @@ header {
   padding: 30px 10%;
   background: #e8c07d;
   margin: 0;
+  animation: opacityChange 1s ease;
 }
 
 li,
@@ -654,19 +655,33 @@ h4{
 @keyframes slideInLeft {
   from {
     transform: translateX(-300px);
+    opacity: 0;
   }
   to {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
 @keyframes slideInRight {
   from {
     transform: translateX(300px);
+    opacity: 0;
   }
   to {
     transform: translateX(0);
+    opacity: 1;
   }
+}
+
+@keyframes opacityChange {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  
 }
 
 @media (max-width: 450px) {
