@@ -320,10 +320,11 @@ h4{
 }
 
 .swiper-navBtn{
-  transition: color 0.3s ease;
+  transition: opacity 0.3s ease;
+  opacity: 0.3;
 }
 .swiper-navBtn:hover{
-  color: brown;
+  opacity: 1;
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after{
