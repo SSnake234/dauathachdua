@@ -330,7 +330,7 @@ h4{
   border-top: 1px solid #cc704b;
 }
 
-#events {
+#timeline {
   position: relative;
   max-width: 1200px;
   margin: 100px auto;
@@ -349,7 +349,8 @@ h4{
   color: #614124;
   border-radius: 6px;
   font-size: clamp(0.5rem, 5vw, 1.3rem);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
+  text-align: justify;
 }
 
 .text h2 {
@@ -364,6 +365,7 @@ h4{
   opacity: 0;
   transform: translateX(10px);
   transition: all 1s ease;
+  padding-left: 0;
 }
 .left-animation {
   opacity: 1;
@@ -375,6 +377,7 @@ h4{
   opacity: 0;
   transform: translateX(-10px);
   transition: all 1s ease;
+  padding-right: 0;
 }
 
 .right-animation {
@@ -384,18 +387,19 @@ h4{
 
 .content img {
   position: absolute;
-  width: 90px;
+  width: 150px;
   border-radius: 50%;
   right: -20px;
   top: 32px;
   z-index: 3;
+  aspect-ratio: 1/1;
 }
 
 .right img {
   left: -20px;
 }
 
-#events:after {
+#timeline:after {
   content: "";
   position: absolute;
   top: 0;
@@ -419,7 +423,7 @@ h4{
 }
 
 .needle:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   transition: all 300ms ease;
 }
 
@@ -733,8 +737,10 @@ h4{
   }
   .content {
     width: 97%;
-    padding-left: 80px;
-    padding-right: 25px;
+    padding-left: 60px;
+  }
+  .content img{
+    width: 80px;
   }
   .text {
     font-size: 13px;
@@ -742,15 +748,19 @@ h4{
   .text small {
     margin-bottom: 10px;
   }
+  content:hover{
+    scale
+  }
   .right,
   .left {
     left: 0px;
+    padding-right: 0;
   }
   .right img,
   .left img {
-    left: 10px;
+    left: 5px;
   }
-  #events::after {
+  #timeline::after {
     left: 31px;
   }
   .randomtext{
