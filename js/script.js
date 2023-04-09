@@ -69,6 +69,8 @@ const hackingFunc = (event) => {
 document.querySelector("#cac").ontransitionstart = hackingFunc;
 document.querySelector("#cac").onmouseover = hackingFunc;
 
+// SwiperJS
+
 var swiper = new Swiper(".slide-content", {
   slidesPerView: 2,
   spaceBetween: 25,
@@ -96,4 +98,16 @@ var swiper = new Swiper(".slide-content", {
           slidesPerView: 3,
       },
   },
+});
+
+//Expand pictures
+
+const imgs = document.querySelectorAll('.expand');
+const fullPage = document.querySelector('#fullpage');
+
+imgs.forEach(img => {
+  img.addEventListener('click', function() {
+    fullPage.style.backgroundImage = 'url(' + img.src + ')';
+    fullPage.style.display = 'block';
+  });
 });
