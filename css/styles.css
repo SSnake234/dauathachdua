@@ -212,9 +212,11 @@ h1 {
 
 #teacher{
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.nguin{
+  text-align: center;
+  
 }
 
 .slide-container{
@@ -315,6 +317,17 @@ h1 {
 h4{
   text-align: center;
   width: 30%;
+}
+
+.swiper-navBtn{
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: brown;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
 }
 
 @media screen and (max-width: 768px) {
@@ -747,9 +760,6 @@ h4{
   }
   .text small {
     margin-bottom: 10px;
-  }
-  content:hover{
-    scale
   }
   .right,
   .left {
