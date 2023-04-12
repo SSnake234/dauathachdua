@@ -367,11 +367,11 @@ h4{
 }
 
 .describe{
-  font-size: clamp(0.5em, 4vw, 1.5em);
+  font-size: clamp(0.5em, 3vw, 1.4em);
   min-width: 0;
   min-height: 0;
   overflow: hidden;
-  padding: 10vh 0 0 5%;
+  padding: 5vh 0 0 5%;
 }
 
 .studentName{
@@ -394,8 +394,63 @@ h4{
   grid-template-rows: repeat(30, 1fr);
 }
 
+.trio1{
+  background-color: var(--main-orange);
+  width: 50%;
+  border-radius: 10px;
+}
+
+.t1{
+  grid-column: 3/4;
+  grid-row: 7/10;
+  rotate: -60deg;
+  position: relative; left: 14px; top: 3px;
+}
+
+.t2{
+  grid-column: 5/6;
+  grid-row: 6/9;
+  rotate: -30deg;
+}
+
+.t3{
+  grid-column: 7/8;
+  grid-row: 5/8;
+  rotate: -15deg;
+  height: 90%;
+  position: relative; left: -15px; top: 21px;
+}
+
+.trio2{
+  background-color: var(--darker-green);
+  width: 50%;
+  border-radius: 10px;
+}
+
+.tr1{
+  grid-column: 13/14;
+  grid-row: 4/7;
+  rotate: 15deg;
+}
+
+.tr2{
+  grid-column: 15/16;
+  grid-row: 5/8;
+  rotate: 30deg;
+  position: relative; left: -13px; top: -5px
+}
+
+.tr3{
+  grid-column: 17/18;
+  grid-row: 6/9;
+  rotate: 50deg;
+  height: 90%;
+  position: relative; left: -29px; top: -4px;
+}
+
+
 .mountain1{
-  grid-row: 5/29;
+  grid-row: 9/29;
   grid-column: 6/19;
   background-color: var(--main-green);
   border-radius: 50% 50% 0 0;
@@ -411,7 +466,7 @@ h4{
   width: 100%;
 }
 
-.smile{
+/* .smile{
   position: relative;
   top: 30%;
   left: 70%;
@@ -442,10 +497,10 @@ h4{
   border-radius: 50%;
   top: 20%;
   left: 70%;
-}
+} */
 
 .mountain2{
-  grid-row: 8/29;
+  grid-row: 12/29;
   grid-column: 4/14;
   background-color: var(--darker-green);
   border-radius: 50% 50% 0 0;
