@@ -6,16 +6,6 @@
 });
 const hiddenElem = document.querySelectorAll(".hidden");
 hiddenElem.forEach((el) => observer.observe(el));
-
-// fuckme function
-const observerAnima = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) entry.target.classList.add("showUp");
-  });
-});
-const hiddenAnima = document.querySelectorAll(".animated");
-hiddenAnima.forEach((el) => observerAnima.observe(el));
-
 // LEFT-ANIMATION
 
 const observerLeft = new IntersectionObserver((entries) => {
