@@ -243,15 +243,14 @@ h1 {
 
 .card-wrapper{
   display: flex;
-  align-items: safe;
 }
 
 .card{
   border-radius: 25px;
   background-color: #539165;
-  inline-size: min-content;
-  padding-bottom: 100%;
-  margin-bottom: -100%;
+  /* inline-size: min-content; */
+  /* padding-bottom: 100%;
+  margin-bottom: -100%; */
 }
 
 .image-content{
@@ -319,10 +318,6 @@ h1 {
 
 .field ul li, .quote ul li, .feature ul li{
   color: white;
-}
-
-.quote{
-  margin-bottom: 5px;
 }
 
 h4{
@@ -976,7 +971,6 @@ h4{
   .container {
     width: 280px;
     height: 280px;
-    /* top: 220px; */
   }
   .main {
     height: 75vh;
