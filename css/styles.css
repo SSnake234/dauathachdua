@@ -988,6 +988,11 @@ h4{
   #events {
     margin: 50px auto;
   }
+
+  .slide-container{
+    height: 100vh;
+  }
+
   .content {
     width: 97%;
     padding-left: 60px;
