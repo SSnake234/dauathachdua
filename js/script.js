@@ -6,25 +6,6 @@
 });
 const hiddenElem = document.querySelectorAll(".hidden");
 hiddenElem.forEach((el) => observer.observe(el));
-// LEFT-ANIMATION
-
-const observerLeft = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) entry.target.classList.add("left-animation");
-  });
-});
-const hiddenLeft = document.querySelectorAll(".left");
-hiddenLeft.forEach((el) => observerLeft.observe(el));
-
-// RIGHT-ANIMATION
-
-const observerRight = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) entry.target.classList.add("right-animation");
-  });
-});
-const hiddenRight = document.querySelectorAll(".right");
-hiddenRight.forEach((el) => observerRight.observe(el));
 
 // hacking function
 

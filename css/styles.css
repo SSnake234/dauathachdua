@@ -133,8 +133,7 @@ h1 {
 /*  load transition */
 .hidden {
   opacity: 0;
-  transition: background-color 0s;
-  transition: transform 1s ease, opacity 1s ease, filter 1s ease;
+  transition: all 1s ease;
   filter: blur(5px);
   transform: translateX(-100%);
 }
@@ -147,7 +146,7 @@ h1 {
 #about {
   margin: 0;
   padding: 20px 20% 20px;
-  font-size: clamp(0.5em, 5vw, 1.6em);
+  font-size: clamp(0.9rem, 3.5vw, 1.6rem);
   text-align: justify;
 }
 #about ul {
@@ -214,7 +213,7 @@ h1 {
 
 .randomtext {
   padding: 20px 20% 20px;
-  font-size: clamp(0.5em, 5vw, 1.6em);
+  font-size: clamp(.9rem, 3.5vw, 1.6rem);
   text-align: justify;
 }
 
@@ -247,9 +246,6 @@ h1 {
 .card{
   border-radius: 25px;
   background-color: #539165;
-  /* inline-size: min-content; */
-  /* padding-bottom: 100%;
-  margin-bottom: -100%; */
 }
 
 .image-content{
@@ -305,7 +301,7 @@ h1 {
 }
 
 .card-content{
-  font-size: clamp(16px, 3vw, 20px);
+  font-size: clamp(1rem, 3vw, 1.2rem);
   color: #EEEEEE;
   padding: 0px 5px 5px;
 }
@@ -313,6 +309,7 @@ h1 {
 .field, .quote, .feature{
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .field ul li, .quote ul li, .feature ul li{
@@ -361,18 +358,13 @@ h4{
 }
 
 .describe{
-  font-size: clamp(.8rem, 2vw, 20px);
-  min-width: 0;
-  min-height: 0;
-  overflow: hidden;
+  font-size: clamp(.9rem, 2vw, 1.3rem);
   padding: 5vh 0 0 5%;
 }
 
 .studentName{
   color: var(--main-brown);
 }
-
-
 
 .wavyName{
   text-decoration:var(--main-orange) wavy underline;
@@ -384,6 +376,7 @@ ul.hidden{
 
 .describe ul li{
   color: var(--main-orange);
+  text-align: justify;
 }
 
 .mess{
@@ -586,7 +579,20 @@ ul.hidden{
   grid-column: 1/3;
   color: var(--main-brown);
   padding: 5%;
-  font-size: clamp(11px, 2.5vw, 22px);
+  font-size: clamp(.9rem, 2vw, 1.3rem);
+}
+
+.studentQuote.hidden{
+  opacity: 0;
+  transition: all 1s ease;
+  filter: blur(5px);
+  transform: scale(0);
+}
+
+.studentQuote.show{
+  opacity: 1;
+  filter: blur(0px);
+  transform: scale(1);
 }
 
 .triangle1{
@@ -619,7 +625,7 @@ ul.hidden{
 .signature{
   position: relative;
   margin-top: 5px;
-  left: 80%;
+  left: 75%;
   width: fit-content;
 }
 
@@ -641,7 +647,7 @@ ul.hidden{
   background: var(--main-yellow);
   color: var(--main-brown);
   border-radius: 6px;
-  font-size: clamp(0.5rem, 5vw, 1.3rem);
+  font-size: clamp(0.6rem, 5vw, 1.3rem);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
   text-align: justify;
 }
@@ -653,19 +659,19 @@ ul.hidden{
   display: inline-block;
   opacity: 70%;
 }
-.left {
+.left.hidden {
   left: 28px;
   opacity: 0;
   transform: translateX(10px);
   transition: all 1s ease;
   padding-left: 0;
 }
-.left-animation {
+.left.show {
   opacity: 1;
   transform: translateX(0px);
 }
 
-.right {
+.right.hidden {
   left: 48.3%;
   opacity: 0;
   transform: translateX(-10px);
@@ -673,7 +679,7 @@ ul.hidden{
   padding-right: 0;
 }
 
-.right-animation {
+.right.show {
   opacity: 1;
   transform: translateX(0px);
 }
@@ -1040,7 +1046,6 @@ ul.hidden{
   }
   #about {
     padding: 20px 3% 20px;
-    font-size: 1.1rem;
   }
   #events {
     margin: 50px auto;
@@ -1083,7 +1088,7 @@ ul.hidden{
     height: 0;
   }
   .triangle2{
-    right: 5px;
+    right: 0px;
   }
 }
 
