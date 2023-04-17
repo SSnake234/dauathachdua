@@ -305,7 +305,7 @@ h1 {
 }
 
 .card-content{
-  font-size: clamp(11px, 3vw, 20px);
+  font-size: clamp(16px, 3vw, 20px);
   color: #EEEEEE;
   padding: 0px 5px 5px;
 }
@@ -361,7 +361,7 @@ h4{
 }
 
 .describe{
-  font-size: clamp(11px, 2vw, 20px);
+  font-size: clamp(.8rem, 2vw, 20px);
   min-width: 0;
   min-height: 0;
   overflow: hidden;
@@ -372,8 +372,14 @@ h4{
   color: var(--main-brown);
 }
 
+
+
 .wavyName{
   text-decoration:var(--main-orange) wavy underline;
+}
+
+ul.hidden{
+  padding-left: 20px;
 }
 
 .describe ul li{
@@ -534,6 +540,32 @@ h4{
   flex-direction: column;
 }
 
+.verticalWords.hidden{
+  transform: translateX(0px);
+  transform: translateY(10px);
+}
+
+.verticalWords.show{
+  transform: translateY(0px);
+}
+
+.mess.hidden{
+  transform: translateX(0px);
+  transform: translateY(10px);
+}
+
+.mess.show{
+  transform: translateY(0px);
+}
+
+.describe ul{
+  list-style: none;
+}
+
+.verticalWords .hidden{
+  opacity: 0;
+}
+
 .vertItem{
   margin: 30px 0;
   width: 100%;
@@ -559,12 +591,12 @@ h4{
 
 .triangle1{
   position: relative;
-  left: -12px; top: 18px;
+  left: -20px; 
   width: 0; 
   height: 0; 
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid var(--main-orange);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid var(--main-orange);
   rotate: 135deg;
 }
 
@@ -573,9 +605,9 @@ h4{
   right: 9.1%;
   width: 0; 
   height: 0; 
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid var(--main-orange);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid var(--main-orange);
   rotate: -45deg;
 }
 
@@ -1041,6 +1073,17 @@ h4{
   }
   .randomtext{
     padding: 0;
+  }
+  .grid{
+    display: block;
+  }
+  .verticalWords{
+    display: none;
+    width: 0;
+    height: 0;
+  }
+  .triangle2{
+    right: 5px;
   }
 }
 
