@@ -545,10 +545,13 @@ ul.hidden{
 .mess.hidden{
   transform: translateX(0px);
   transform: translateY(10px);
+  transform: scale(0);
+  transition-delay: 600ms;
 }
 
 .mess.show{
   transform: translateY(0px);
+  transform: scale(1);
 }
 
 .describe ul{
@@ -1051,11 +1054,11 @@ ul.hidden{
     margin: 50px auto;
   }
 
-  .content {
+  .content.hidden {
     width: 97%;
     padding-left: 60px;
   }
-  .content img{
+  .content.hidden img{
     width: 80px;
   }
   .text {
@@ -1064,8 +1067,8 @@ ul.hidden{
   .text small {
     margin-bottom: 10px;
   }
-  .right,
-  .left {
+  .right.hidden,
+  .left.hidden {
     left: 0px;
     padding-right: 0;
   }
@@ -1089,6 +1092,9 @@ ul.hidden{
   }
   .triangle2{
     right: 0px;
+  }
+  .studentName{
+    text-align: center;
   }
 }
 
