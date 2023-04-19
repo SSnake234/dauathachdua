@@ -754,7 +754,7 @@ ul.hidden{
   height: 30px;
   width: 1.4px;
   position: absolute;
-  left: 0px;
+  left: -1px;
   z-index: 10;
   top: 65%;
   transition: all 600ms ease;
