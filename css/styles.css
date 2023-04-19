@@ -1080,7 +1080,7 @@ ul.hidden{
     left: 31px;
   }
   .randomtext{
-    padding: 0;
+    padding: 0 3%;
   }
   .grid{
     display: flex;
