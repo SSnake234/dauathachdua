@@ -547,6 +547,7 @@ ul.hidden{
   transform: translateY(10px);
   transform: scale(0);
   transition-delay: 600ms;
+  transition-duration: 900ms;
 }
 
 .mess.show{
