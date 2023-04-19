@@ -1099,6 +1099,7 @@ ul.hidden{
     text-align: center;
   }
   .mess.hidden{
+    width: 100vw;
     aspect-ratio: 1/1;
     transition-delay: 0ms;
     order: 1;
