@@ -301,7 +301,7 @@ h1 {
 }
 
 .card-content{
-  font-size: clamp(1rem, 3vw, 1.2rem);
+  font-size: clamp(0.9rem, 3vw, 1.2rem);
   color: #EEEEEE;
   padding: 0px 5px 5px;
 }
