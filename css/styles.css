@@ -357,6 +357,11 @@ h4{
   min-height: 100vh;
 }
 
+#khietlinh{
+  background-color: var(--main-yellow);
+  min-height: 100vh;
+}
+
 .describe{
   font-size: clamp(.9rem, 2vw, 1.3rem);
   padding: 5vh 0 0 5%;
@@ -451,12 +456,18 @@ ul.hidden{
 
 .imagemess{
   grid-row: 1/29;
-  grid-column: 1/21; 
+  grid-column: 1/21;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .imagemess img{
-  height: 100%;
-  width: 100%;
+  /* aspect-ratio: 1/1; */
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 /* .smile{
