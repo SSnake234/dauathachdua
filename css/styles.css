@@ -1135,6 +1135,7 @@ ul.hidden{
   .describe{
     order: 2;
     padding: 0;
+    padding-top: 2%;
   }
   .studentQuote{
     order: 3;
