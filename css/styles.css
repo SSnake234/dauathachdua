@@ -91,7 +91,7 @@ button:hover {
 .box1 {
   position: relative;
   margin: 0;
-  font-size: clamp(0.5rem, 5vw, 2.5rem);
+  font-size: clamp(0.4rem, 5vw, 2.5rem);
   top: 30%;
 }
 .box2 {
@@ -551,14 +551,12 @@ ul.hidden{
 .mess.hidden{
   transform: translateX(0px);
   transform: translateY(10px);
-  transform: scale(1.2);
   transition-delay: 600ms;
   transition-duration: 900ms;
 }
 
 .mess.show{
   transform: translateY(0px);
-  transform: scale(1);
 }
 
 .describe ul{
