@@ -31,11 +31,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 20px 10%;
   background: var(--main-yellow);
-  margin: 0;
   animation: opacityChange 1s ease;
   z-index: 10;
+  height: 10%;
 }
 
 li,
@@ -45,7 +45,7 @@ a {
 }
 
 .logo {
-  width: 50px;
+  height: 100%;
   cursor: pointer;
 }
 
@@ -57,7 +57,7 @@ a {
   display: inline-block;
   margin: 0px 20px;
   padding: 5px 20px;
-  font-size: 1.2rem;
+  font-size: clamp(0.9rem, 1.5vw, 1.6rem);
   border-radius: 10px;
   background: inherit;
   font-weight: 800;
@@ -339,8 +339,12 @@ h4{
   min-height: 100vh;
 }
 
+#quynhf{
+  border-bottom: 1px solid var(--main-brown);
+}
+
 .describe{
-  font-size: clamp(.9rem, 1.5vw, 1.3rem);
+  font-size: clamp(.9rem, 1.5vw, 1.4rem);
   padding: 5vh 0 0 5%;
   grid-row: 1/3;
   grid-auto-rows: minmax(min-content, max-content);
@@ -599,7 +603,7 @@ ul.hidden{
   grid-row: 3/4;
   color: var(--main-brown);
   padding: 5%;
-  font-size: clamp(.9rem, 2vw, 1.3rem);
+  font-size: clamp(.9rem, 1.5vw, 1.3rem);
 }
 
 .palette2 .studentQuote{
@@ -636,7 +640,7 @@ ul.hidden{
 
 .triangle2{
   position: absolute;
-  right: 9.1%;
+  right: 4%;
   width: 0; 
   height: 0; 
   border-left: 15px solid transparent;
@@ -719,12 +723,16 @@ ul.hidden{
 
 .content img {
   position: absolute;
-  width: 110px;
+  width: 100px;
   border-radius: 50%;
   right: -30px;
   top: 32px;
   z-index: 3;
   aspect-ratio: 1/1;
+}
+
+.content img.second {
+  top: 50%;
 }
 
 .right img {
@@ -1040,9 +1048,9 @@ ul.hidden{
 
 @media (max-width: 450px) {
   .logo {
-    width: 30px;
+    width: 75px;
     position: relative;
-    left: 30%;
+    left: 20%;
   }
   button {
     font-size: 1rem;
@@ -1050,7 +1058,7 @@ ul.hidden{
   #instagram {
     position: relative;
     left: 40%;
-    bottom: 60px;
+    bottom: 50px;
     padding: 0;
   }
   .nav-links li {
@@ -1069,6 +1077,7 @@ ul.hidden{
   header {
     display: block;
     padding: 10px;
+    height: auto;
   }
   .container {
     width: 280px;
