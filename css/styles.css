@@ -194,6 +194,11 @@ h1 {
   text-align: justify;
 }
 
+.weighty{
+  font-size: 1.1em;
+  font-weight: 800;
+  color: var(--darker-green);
+}
 
 #teacher{
   padding-bottom: 10px;
