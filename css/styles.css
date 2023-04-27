@@ -1053,6 +1053,7 @@ ul.hidden{
 
 @media (max-width: 450px) {
   .logo {
+    height: 40%;
     width: 75px;
     position: relative;
     left: 20%;
