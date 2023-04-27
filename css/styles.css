@@ -844,6 +844,23 @@ ul.hidden{
   left: 65%;
 }
 
+#credit{
+  width: 100%;
+  background-color: var(--main-yellow);
+  color: var(--main-brown);
+  padding: 3% 0;
+  font-size: clamp(0.9rem, 3.5vw, 1.6rem);
+  text-align: center;
+}
+
+#credit a{
+  color: var(--darker-green);
+}
+
+#credit a:hover{
+  opacity: 70%;
+}
+
 .container {
   width: 500px;
   height: 500px;
