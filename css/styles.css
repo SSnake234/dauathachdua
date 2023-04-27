@@ -1082,7 +1082,7 @@ ul.hidden{
   header {
     display: block;
     padding: 10px;
-    height: auto;
+    height: 30%;
   }
   .container {
     width: 280px;
